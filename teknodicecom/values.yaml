@@ -1,0 +1,13 @@
+replicaCount: 1
+service:
+  type: NodePort
+  port: 30000
+nameSpaces: default
+containers:
+    imageName: imagename
+    name: default
+    ports: 80
+metadata:
+    name: default
+    labels:
+        app: default
